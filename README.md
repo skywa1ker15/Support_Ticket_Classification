@@ -9,11 +9,11 @@ This system helps simulate real-world customer support automation by improving r
 ## 🚀 Project Overview
 
 Support teams handle large volumes of customer messages daily.  
-This project uses Natural Language Processing (NLP) to automatically:
+This project uses Natural Language Processing (NLP) to:
 
-- Classify support tickets into categories
-- Assign priority levels based on urgency
-- Improve efficiency in handling customer requests
+- Classify support tickets into categories  
+- Assign priority levels based on urgency  
+- Improve efficiency in handling customer requests  
 
 ---
 
@@ -24,7 +24,7 @@ This project uses Natural Language Processing (NLP) to automatically:
 ✔ Priority prediction (Critical / High / Medium / Low)  
 ✔ Machine Learning pipeline using Scikit-learn  
 ✔ TF-IDF feature extraction  
-✔ Interactive Streamlit dashboard (optional UI)
+✔ Interactive Streamlit dashboard for predictions  
 
 ---
 
@@ -35,17 +35,17 @@ This project uses Natural Language Processing (NLP) to automatically:
 - Scikit-learn  
 - NLTK  
 - Streamlit  
-- Logistic Regression (ML Model)
+- Logistic Regression (Machine Learning Model)
 
 ---
 
 ## 📊 Machine Learning Approach
 
-- Text preprocessing (lowercasing, cleaning, stopword removal)
-- Feature extraction using TF-IDF Vectorizer
+- Text preprocessing (lowercasing, cleaning, stopword removal using NLTK)  
+- Feature extraction using TF-IDF Vectorizer  
 - Supervised classification models:
-  - Ticket Category Model
-  - Priority Classification Model
+  - Ticket Category Model  
+  - Priority Classification Model  
 
 ---
 
@@ -54,4 +54,3 @@ This project uses Natural Language Processing (NLP) to automatically:
 ```bash
 pip install -r requirements.txt
 python main.py
-streamlit run app.py
